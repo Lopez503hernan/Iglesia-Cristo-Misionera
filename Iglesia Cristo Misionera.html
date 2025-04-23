@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Iglesia Cristo Misionera Plan Del Pino</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="img/logo.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Iglesia Cristo Misionera Plan Del Pino</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#redes">Redes Sociales</a></li>
+      </ul>
+    </nav>
+    <button id="toggleMode">Modo Oscuro</button>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>“Yo soy la luz del mundo; el que me sigue no andará en tinieblas...” (Juan 8:12)</p>
+  </section>
+
+  <div class="versiculo">
+    <h3>Versículo del Día</h3>
+    <p id="versiculo"></p>
+  </div>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <p>Una iglesia con el compromiso de predicar la palabra de Dios y rescatar almas para Cristo. Nos reunimos para adorar, compartir y crecer en la fe.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Lunes - Culto General 5:30 PM</li>
+      <li>Martes - Culto De Mujeres 5:30 PM</li>
+      <li>Jueves - Culto General 5:30 PM</li>
+      <li>Viernes - Culto General 5:30 PM</li>
+      <li>Sábado - Culto De Jóvenes 5:00 PM</li>
+      <li>Domingo - Culto Dominical 3:00 PM</li>
+    </ul>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonial">
+      <blockquote>"Desde que llegué a esta iglesia, mi vida ha cambiado para bien. Dios me ha restaurado." - Ana M.</blockquote>
+      <blockquote>"La iglesia es mi segunda casa, me siento amado y apoyado." - Carlos R.</blockquote>
+    </div>
+  </section>
+
+  <section id="eventos">
+    <h2>Próximos Eventos</h2>
+    <ul>
+      <li>14 de mayo - Ayuno Especial de Oración</li>
+      <li>22 de mayo - Vigilia de Adoración</li>
+      <li>30 de mayo - Encuentro Juvenil</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="slider">
+      <img src="img/Nombre de la iglesia.jpeg" alt="Nombre Iglesia" />
+      <img src="img/Invitacion a cultos.jpeg" alt="Invitación a cultos" />
+      <img src="img/Horarios de cultos.jpeg" alt="Horarios de cultos" />
+    </div>
+  </section>
+
+  <section id="recursos">
+    <h2>Recursos</h2>
+    <p>Accede a nuestros cultos, predicaciones, devocionales y materiales de crecimiento espiritual. ¡Te esperamos!</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="redes">
+    <h2>Síguenos en nuestras redes sociales</h2>
+    <div class="social">
+      <a href="https://www.facebook.com/share/164i3jnzUb" target="_blank">Facebook</a>
+      <a href="https://instagram.com/tu-iglesia" target="_blank">Instagram</a>
+      <a href="https://youtube.com/tu-canal" target="_blank">YouTube</a>
+    </div>
+  </section>
+
+  <section id="mapa">
+    <h2>¿Dónde estamos?</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.3216327558524!2d-89.14307332397868!3d13.729285986688588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6337fa6a087927%3A0xdf8e05859b01a91f!2sIglesia%20Cristo%20Misionera%20Plan%20del%20Pino!5e0!3m2!1ses!2ssv!4v1713748000000!5m2!1ses!2ssv"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <a class="whatsapp-float" href="https://wa.me/+503 74768396" target="_blank">
+    WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Iglesia Cristo Misionera | Todos los derechos reservados</p>
+  </footer>
+
+  <script>
+    // Versículos aleatorios
+const versiculos = [
+  "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito... (Juan 3:16)",
+  "El Señor es mi pastor; nada me faltará. (Salmo 23:1)",
+  "Todo lo puedo en Cristo que me fortalece. (Filipenses 4:13)",
+  "Mas el fruto del Espíritu es amor, gozo, paz... (Gálatas 5:22-23)"
+];
+
+function mostrarVersiculo() {
+  const versiculo = versiculos[Math.floor(Math.random() * versiculos.length)];
+  document.getElementById("versiculo").textContent = versiculo;
+}
+
+// Alternar modo oscuro
+function activarModoOscuro() {
+  document.body.classList.toggle("dark-mode");
+}
+
+// Listeners
+document.addEventListener("DOMContentLoaded", () => {
+  mostrarVersiculo();
+  document.getElementById("toggleMode").addEventListener("click", activarModoOscuro);
+});
+
+  </script>
+</body>
+</html>
